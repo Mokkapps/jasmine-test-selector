@@ -1,0 +1,40 @@
+{
+    "name": "jasmine-test-selector",
+    "displayName": "Jasmine Test Selector",
+    "description": "Jump to available jasmine tests in a test file",
+    "version": "0.1.0",
+    "publisher": "Mokkapps",
+    "repository": "https://github.com/Mokkapps/jasmine-test-selector",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.jumpToTest"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.jumpToTest",
+                "title": "Jump to a jasmine test"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
