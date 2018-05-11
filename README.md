@@ -5,6 +5,9 @@ it``` functions in an editor window. Selecting one list entry moves the cursor t
 
 This extension was inspired by the [IntelliJ Plugin "ddescriber"](https://plugins.jetbrains.com/plugin/7233-ddescriber-for-jasmine)
 
+## Visual Studio Code Marketplace
+[Download the extension from the marketplace](https://marketplace.visualstudio.com/items?itemName=Mokkapps.jasmine-test-selector#overview)
+
 ## Usage
 
 * Launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type "Jump to a jasmine test"
