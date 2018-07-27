@@ -1,3 +1,6 @@
+
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Mokkapps.jasmine-test-selector.svg)](https://marketplace.visualstudio.com/items?itemName=Mokkapps.jasmine-test-selector)
+
 # VS Code Extension: Jasmine Test Selector
 
 This VS code extension provides a way to list all available ```describe``` and ```
